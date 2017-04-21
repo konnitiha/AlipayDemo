@@ -1,0 +1,25 @@
+//
+//  AliPayDemo.pch
+//  AliPayDemo
+//
+//  Created by FuYunLei on 2017/4/21.
+//  Copyright © 2017年 FuYunLei. All rights reserved.
+//
+
+#ifndef AliPayDemo_pch
+#define AliPayDemo_pch
+
+#ifdef __OBJC__
+
+#import "UIView+FYLExt.h"
+
+#endif
+
+#define Screen_Width [UIScreen mainScreen].bounds.size.width
+#define Screen_Height [UIScreen mainScreen].bounds.size.height
+
+
+#define kColor_Blue [UIColor colorWithRed:29/255.f green:108/255.f blue:200/255.f alpha:1]
+
+
+#endif /* AliPayDemo_pch */
